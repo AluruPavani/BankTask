@@ -30,7 +30,7 @@ public class DataReader {
 		Scanner scnr=new Scanner(System.in);
 		System.out.println("Enter the name:");
 		string=scnr.nextLine();
-		Path path=Paths.get("C:\\File\\info.txt");
+		Path path=Paths.get("C:\\File\\data.txt");
 		 System.out.println("Name"+"\t"+"Age"+"\t"+"Gender"+"\t"+"Bank"+"\t"+"CardNumber"+"\t"+"TransactionDate"+"\t"+"Amount");
 		Files.lines(path)
 		.filter(str->str.contains(string))
