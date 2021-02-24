@@ -25,7 +25,7 @@ public class BankDataReader {
 				}
 			}
 		}
-		Files.write(Paths.get("C:\\File\\data.txt"),result);
+		Files.write(Paths.get("C:\\File\\data.txt"),output);
 		String string;
 		Scanner scnr=new Scanner(System.in);
 		System.out.println("Enter the name:");
